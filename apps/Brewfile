@@ -1,0 +1,21 @@
+tap "homebrew/core"
+tap "homebrew/bundle"
+tap "caskroom/cask"
+brew "mas"
+brew "peco"
+brew "wget"
+brew "tree"
+cask "boostnote"
+cask "clipy"
+cask "google-chrome"
+cask "google-japanese-ime"
+cask "iterm2"
+cask "karabiner-elements"
+cask "slack"
+cask "sublime-text"
+cask "visual-studio-code"
+mas "iMovie", id: 408981434
+mas "Keynote", id: 409183694
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
+mas "Magnet", id: 441258766
