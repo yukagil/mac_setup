@@ -1,5 +1,5 @@
 #!/bin/bash -u
 
-ln -snfv ~/dotfiles/.zshrc ~
+ln -snfv ~/mac_setup/dotfiles/.zshrc ~
 chsh -s /bin/zsh
 source ~/.zshrc
