@@ -1,5 +1,7 @@
 export LANG=ja_JP.UTF-8
 export PATH=$HOME/.nodebrew/current/bin:$PATH
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin
 
 
 alias ll='ls -lG'
@@ -10,6 +12,8 @@ alias gs='git status'
 alias gd='git diff'
 alias gc='git checkout'
 alias gcp='git checkout `git branch | peco | sed -e "s/\* //g" | awk "{print \$1}"`'
+alias gorepos='ghq list -p | peco'
+alias grp='cd $(gorepos)'
 alias ssh=~/bin/ssh-host-color.sh
 
 
