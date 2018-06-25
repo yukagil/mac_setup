@@ -51,3 +51,4 @@ peco-select-history() {
 }
 zle -N peco-select-history
 bindkey '^r' peco-select-history
+eval "$(goenv init -)"
